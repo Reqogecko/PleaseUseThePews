@@ -1,0 +1,9 @@
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Assemblies/GatherRound.dll
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Assemblies/GatherRound.pdb
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/obj/Debug/GatherRound.csproj.AssemblyReference.cache
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/obj/Debug/GatherRound.GeneratedMSBuildEditorConfig.editorconfig
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/obj/Debug/GatherRound.AssemblyInfoInputs.cache
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/obj/Debug/GatherRound.AssemblyInfo.cs
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/obj/Debug/GatherRound.csproj.CoreCompileInputs.cache
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/obj/Debug/GatherRound.dll
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/obj/Debug/GatherRound.pdb

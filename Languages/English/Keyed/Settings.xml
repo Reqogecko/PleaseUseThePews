@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <RES_Reset>Reset</RES_Reset>
+    <RES_Config>Config</RES_Config>
+    <RES_Notifications>Notifications</RES_Notifications>
+
+    <RES_GatheringRange_Label>Range in tiles that pawns will search for seats : {0}</RES_GatheringRange_Label>
+    <RES_GatheringRange_Tooltip>Set the tile range (starting from the ritual focus spot) at which pawns will look for seats when starting a ritual!</RES_GatheringRange_Tooltip>
+    <RES_MaxDistanceToRitualSpot_Label>Max range (in tiles) possible to search for suitable seats : {0}</RES_MaxDistanceToRitualSpot_Label>
+    <RES_MaxDistanceToRitualSpotInfo_Label>(NEEDS TO BE EQUAL (OR HIGHER) TO GATHERING RANGE TO DO ANYTHING!)</RES_MaxDistanceToRitualSpotInfo_Label>
+    <RES_MaxDistanceToRitualSpot_Tooltip>Should be equal or slightly higher to the main Gathering Range value! Pawns won't search for seats above this amount of tiles ^v^</RES_MaxDistanceToRitualSpot_Tooltip>
+    <RES_GenRadialTilesToCheck_Label>Max amount of individual tiles to check for seats: {0}</RES_GenRadialTilesToCheck_Label>
+    <RES_GenRadialTilesToCheck_Tooltip>Should be equal or slightly higher to the main Gathering Range value! Pawns won't search for seats above this amount of tiles ^v^</RES_GenRadialTilesToCheck_Tooltip>
+
+
+    <RES_FeatureTabConfig_Label>Settings - (Really big numbers might eat your tps during rituals, be careful!)</RES_FeatureTabConfig_Label>
+
+    <RES_FeatureTabConfigAdvanced_Label>- ADVANCED SETTINGS -</RES_FeatureTabConfigAdvanced_Label>
+    <RES_FeatureTabConfigAdvanced2_Label>(Only change if pawns don't manage to reach seats at the distance you've set on the sliders above !)</RES_FeatureTabConfigAdvanced2_Label>
+
+    <GatherRound_RestartRequired>IMPORTANT
+Don't forget to restart after changing the values!
+
+(Since this patch affects the source code of the game itself, it only edits the values when launching!) HAVE FUN!!!! ^v^</GatherRound_RestartRequired>
+</LanguageData>

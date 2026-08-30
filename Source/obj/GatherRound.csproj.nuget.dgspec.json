@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/GatherRound.csproj": {}
+  },
+  "projects": {
+    "/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/GatherRound.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/GatherRound.csproj",
+        "projectName": "GatherRound",
+        "projectPath": "/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/GatherRound.csproj",
+        "packagesPath": "/home/reqo/.nuget/packages/",
+        "outputPath": "/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/reqo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "framework": "net472",
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net472": {
+          "framework": "net472",
+          "targetAlias": "net472",
+          "dependencies": {
+            "Krafs.Rimworld.Ref": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Lib.Harmony": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
