@@ -1,0 +1,7 @@
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/RitualLinkDistanceTweaks/Source/obj/Release/RitualLinkDistance.csproj.AssemblyReference.cache
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/RitualLinkDistanceTweaks/Source/obj/Release/RitualLinkDistance.GeneratedMSBuildEditorConfig.editorconfig
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/RitualLinkDistanceTweaks/Source/obj/Release/RitualLinkDistance.AssemblyInfoInputs.cache
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/RitualLinkDistanceTweaks/Source/obj/Release/RitualLinkDistance.AssemblyInfo.cs
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/RitualLinkDistanceTweaks/Source/obj/Release/RitualLinkDistance.csproj.CoreCompileInputs.cache
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/RitualLinkDistanceTweaks/Assemblies/RitualLinkDistance.dll
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/RitualLinkDistanceTweaks/Source/obj/Release/RitualLinkDistance.dll
