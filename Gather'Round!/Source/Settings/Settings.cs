@@ -6,9 +6,9 @@ namespace GatherRound
 {
     public class Settings : ModSettings
     {
-        public static float GatheringRange = 18;
+        public static float GatheringRange = 50f;
         public static float MaxDistanceToRitualSpot = GatheringRange;
-        public static int GenRadialTilesToCheck = 1000;
+        public static int GenRadialTilesToCheck = 3000;
         
         static float previousGatheringRange = GatheringRange;
         static bool RestartPopupWasShown = false;
