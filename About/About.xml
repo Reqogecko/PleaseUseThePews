@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Gather'Round! (Ritual Seat Range Fix)</name>
+    <name>Please use the pews ! (Ritual Seats Range Fix)</name>
     <author>Reqo</author>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
-    <packageId>reqo.GatherRound.ideologypatch</packageId>
+    <packageId>reqo.pleaseusethepews</packageId>
     <modDependencies>
     <li>
         <packageId>brrainz.harmony</packageId>
@@ -20,9 +20,8 @@
     </loadAfter>
     <description>Allows you to configure the max distance (in tiles) at which pawns will look for seats for Rituals !
 
-        (Default settings is 50 tiles max, this can be changed in the settings!)
-        (This patches GatheringsUtility so it will also affect party spots and anything else that uses the (GatheringsUtility.InGatheringArea) method!)
+(Default settings is 50 tiles max, this can be changed in the settings!)
 
-        (Making this was a complete struggle, took 3 whole days of figuring out how things work to make this, 10/10 experience will do it again!)
+Enjoy !
 </description>
 </ModMetaData>

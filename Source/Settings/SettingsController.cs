@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
 
-namespace GatherRound
+namespace PleaseUseThePews
 {
-    public class GatherRound_Settings_Controller : Mod
+    public class PleaseUseThePews_Settings_Controller : Mod
     {
         private readonly Settings settings;
 
-        public GatherRound_Settings_Controller(ModContentPack content) : base(content)
+        public PleaseUseThePews_Settings_Controller(ModContentPack content) : base(content)
         {
             settings = GetSettings<Settings>();
         }
 
         public override string SettingsCategory()
         {
-            return "Gather'Round - Settings";
+            return "PleaseUseThePews - Settings";
         }
 
         public override void DoSettingsWindowContents(Rect inRect)

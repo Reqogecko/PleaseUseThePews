@@ -2,7 +2,7 @@ using System;
 using RimWorld;
 using System.Collections.Generic;
 using System.Reflection.Emit;
-using GatherRound;
+using PleaseUseThePews;
 using HarmonyLib;
 
 [HarmonyPatch(typeof(SpectatorCellFinder))]

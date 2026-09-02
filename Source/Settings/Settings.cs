@@ -2,13 +2,15 @@
 using UnityEngine;
 using Verse;
 
-namespace GatherRound
+namespace PleaseUseThePews
 {
     public class Settings : ModSettings
     {
         public static float GatheringRange = 50f;
         public static float MaxDistanceToRitualSpot = GatheringRange;
         public static int GenRadialTilesToCheck = 3000;
+
+        public static bool GladiatorRitualSpectate = true;
         
         static float previousGatheringRange = GatheringRange;
         static bool RestartPopupWasShown = false;
@@ -18,6 +20,7 @@ namespace GatherRound
             Scribe_Values.Look(ref GatheringRange, "MaxTilesToSearchForSeat", 50f);
             Scribe_Values.Look(ref MaxDistanceToRitualSpot, "MaxTilesToRitualSpot", 50f);
             Scribe_Values.Look(ref GenRadialTilesToCheck, "TotalAmountOfTilesToCheckForSeats", 3000);
+            Scribe_Values.Look(ref GladiatorRitualSpectate, "SpectateGladiatorToggle", true);
             base.ExposeData();
         }
 
@@ -26,6 +29,7 @@ namespace GatherRound
         private enum FeatureTab
         {
             Config,
+            Other,
         }
         
         public static void DoWindowContents(Rect inRect)
@@ -36,6 +40,7 @@ namespace GatherRound
             List<TabRecord> tabs = new List<TabRecord>
             {
                 new TabRecord("RES_Config".Translate(), () => selectedTab = FeatureTab.Config, selectedTab == FeatureTab.Config),
+                new TabRecord("RES_Other".Translate(), () => selectedTab = FeatureTab.Other, selectedTab == FeatureTab.Other),
             };
             TabDrawer.DrawTabs(tabRect, tabs);
 
@@ -102,6 +107,21 @@ namespace GatherRound
                     {
                         GenRadialTilesToCheck = 3000;
                     }
+                    break;
+                
+                case FeatureTab.Other:
+                    Text.Font = GameFont.Medium;
+                    listing.Label("RES_OtherTab_Label".Translate());
+                    Text.Font = GameFont.Small;
+                    listing.GapLine();
+
+                   // listing.CheckboxLabeled
+                   //   (
+                 //       "RES_GladiatorRitualCheckbox_Label".Translate(),
+                   //     ref GladiatorRitualSpectate,
+                    //    tooltip: "RES_GladiatorRitualCheckbox_Tooltip".Translate()
+                    //);
+                    
                     break;
             }
 

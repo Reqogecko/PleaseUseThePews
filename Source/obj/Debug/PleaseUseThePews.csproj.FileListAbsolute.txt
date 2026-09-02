@@ -1,0 +1,9 @@
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Assemblies/PleaseUseThePews.dll
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Assemblies/PleaseUseThePews.pdb
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Source/obj/Debug/PleaseUseThePews.csproj.AssemblyReference.cache
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Source/obj/Debug/PleaseUseThePews.GeneratedMSBuildEditorConfig.editorconfig
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Source/obj/Debug/PleaseUseThePews.AssemblyInfoInputs.cache
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Source/obj/Debug/PleaseUseThePews.AssemblyInfo.cs
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Source/obj/Debug/PleaseUseThePews.csproj.CoreCompileInputs.cache
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Source/obj/Debug/PleaseUseThePews.dll
+/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Source/obj/Debug/PleaseUseThePews.pdb

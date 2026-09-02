@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j3bXcOGnvo4=",
+  "dgSpecHash": "La/UKa0SY3U=",
   "success": true,
-  "projectFilePath": "/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/Gather'Round!/Source/GatherRound.csproj",
+  "projectFilePath": "/home/reqo/.local/share/Steam/steamapps/common/RimWorld/Mods/PleaseUseThePews/Source/PleaseUseThePews.csproj",
   "expectedPackageFiles": [
     "/home/reqo/.nuget/packages/krafs.rimworld.ref/1.6.4871/krafs.rimworld.ref.1.6.4871.nupkg.sha512",
     "/home/reqo/.nuget/packages/lib.harmony/2.1.0/lib.harmony.2.1.0.nupkg.sha512",
