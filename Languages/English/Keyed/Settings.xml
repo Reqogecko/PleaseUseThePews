@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <RES_PleaseUseThePews_ModTitle>Please use the pews! - Config</RES_PleaseUseThePews_ModTitle>
+
     <RES_Reset>Reset</RES_Reset>
-    <RES_Config>Config</RES_Config>
-    <RES_Other>Other</RES_Other>
+    <RES_Config>Seat Range</RES_Config>
+    <RES_Other>ForceUseSeats</RES_Other>
     <RES_Notifications>Notifications</RES_Notifications>
 
     <RES_GatheringRange_Label>Range in tiles that pawns will search for seats : {0}</RES_GatheringRange_Label>
@@ -19,15 +21,30 @@
     <RES_GladiatorRitualCheckbox_Tooltip>Placeholder</RES_GladiatorRitualCheckbox_Tooltip>
 
 
-    <RES_FeatureTabConfig_Label>Settings - (Really big numbers might eat your tps during rituals, be careful!)</RES_FeatureTabConfig_Label>
-    <RES_OtherTab_Label>Some rituals (like gladiator/sparring rituals) are set to not use seats at all for some reason !
-I'm working on adding toggles to enable seats for those rituals, because otherwise you can't really do cool coliseum gladiator fight AND have your spectators go on the benches to spectate !</RES_OtherTab_Label>
+    <RES_FeatureTabConfig_Label>Seat Range - Config
+(Really big numbers might eat your tps during rituals, be careful!)</RES_FeatureTabConfig_Label>
+    <RES_OtherTab_Label>Rituals tabns thingies</RES_OtherTab_Label>
 
     <RES_FeatureTabConfigAdvanced_Label>- ADVANCED SETTINGS -</RES_FeatureTabConfigAdvanced_Label>
-    <RES_FeatureTabConfigAdvanced2_Label>(Only change if pawns don't manage to reach seats at the distance you've set on the sliders above !)</RES_FeatureTabConfigAdvanced2_Label>
+    <RES_FeatureTabConfigAdvanced2_Label>(Only change if pawns don't manage to reach seats at the distance you've set on the slider above !)</RES_FeatureTabConfigAdvanced2_Label>
+
+     -------------------------------------------
+     // Rituals tab
+     <RES_RitualTab_Label>ForceUseSeats - Config</RES_RitualTab_Label>
+
+     <RES_RitualTabExplanation_Label>Use the settings below to force pawns to use seats for specific rituals !
+
+(You can enable forced seats on Rituals without restarting by the way! (Disabling still needs a restart though!)</RES_RitualTabExplanation_Label>
+     <RES_RitualTabExplanationSearch_Label>Use the searchbar below to search for specific rituals !</RES_RitualTabExplanationSearch_Label>
+
+     <RES_EnableAllForceSeats_Label>Toggle all</RES_EnableAllForceSeats_Label>
+    -------------------------------------------
+    
 
     <GatherRound_RestartRequired>IMPORTANT
 Don't forget to restart after changing the values!
 
-(Since this patch affects the source code of the game itself, it only edits the values when launching!) HAVE FUN!!!! ^v^</GatherRound_RestartRequired>
+(Since this patch affects the source code of the game itself, it only edits the values the launch!)
+
+HAVE FUN!!!! ^v^</GatherRound_RestartRequired>
 </LanguageData>

@@ -1,3 +1,4 @@
+using PleaseUseThePews.Settings;
 using Verse;
 
 [StaticConstructorOnStartup]
